@@ -179,67 +179,67 @@ ${a}❏LIMIT & UANG${a}
  ${a}╿•${prefix}dompet${a}
  ${a}╿•${prefix}giftlimit${a}
  ${a}╰•${prefix}leaderboard${a}
-${a}❏GROUP MENU${a}
- ${a}╿•${prefix}delete${a}
- ${a}╿•${prefix}hidetag${a}
- ${a}╿•${prefix}blocklist${a}
- ${a}╿•${prefix}grouplist${a}
- ${a}╿•${prefix}level${a}
- ${a}╿•${prefix}linkgc${a}
- ${a}╿•${prefix}tagall${a}
- ${a}╿•${prefix}setpp${a}
- ${a}╿•${prefix}add${a}
- ${a}╿•${prefix}kick${a}
- ${a}╿•${prefix}setname${a}
- ${a}╿•${prefix}setdesc${a}
- ${a}╿•${prefix}demote${a}
- ${a}╿•${prefix}promote${a}
- ${a}╿•${prefix}listadmin${a}
- ${a}╿•${prefix}group [buka/tutup]${a}
- ${a}╿•${prefix}leveling [enable/disable]${a}
- ${a}╿•${prefix}nsfw [1/0]${a}
- ${a}╿•${prefix}simih [1/0]${a}
- ${a}╿•${prefix}welcome [1/0]${a}
- ${a}╿•${prefix}antilink [1/0]${a}
- ${a}╰•${prefix}nobadword [enable/disable]${a}
-${a}❏CLOUD STORAGE${a}
- ${a}╿•${prefix}addsticker${a}
- ${a}╿•${prefix}getsticker${a}
- ${a}╿•${prefix}stickerlist${a}
- ${a}╿•${prefix}addvideo${a}
- ${a}╿•${prefix}getvideo${a}
- ${a}╿•${prefix}videolist${a}
- ${a}╿•${prefix}getimage${a}
- ${a}╿•${prefix}addImage${a}
- ${a}╿•${prefix}imagelist${a}
- ${a}╿•${prefix}addaudio${a}
- ${a}╿•${prefix}getaudio${a}
- ${a}╰•${prefix}audiolist${a}
-${a}❏OWNER MENU${a}
- ${a}╿•${prefix}bc${a}
- ${a}╿•${prefix}addbadword${a}
- ${a}╿•${prefix}delbadword${a}
- ${a}╿•${prefix}bcgc${a}
- ${a}╿•${prefix}kickall${a}
- ${a}╿•${prefix}setreply${a}
- ${a}╿•${prefix}setprefix${a}
- ${a}╿•${prefix}clearall${a}
- ${a}╿•${prefix}block${a}
- ${a}╿•${prefix}unblock${a}
- ${a}╿•${prefix}leave${a}
- ${a}╿•${prefix}event [1/0]${a}
- ${a}╿•${prefix}clone${a}
- ${a}╰•${prefix}setppbot${a}
+ ❏GROUP MENU
+ ╿•${prefix}delete${a}
+ ╿•${prefix}hidetag${a}
+ ╿•${prefix}blocklist${a}
+ ╿•${prefix}grouplist${a}
+ ╿•${prefix}level${a}
+ ╿•${prefix}linkgc${a}
+ ╿•${prefix}tagall${a}
+ ╿•${prefix}setpp${a}
+ ╿•${prefix}add${a}
+ ╿•${prefix}kick${a}
+ ╿•${prefix}setname${a}
+ ╿•${prefix}setdesc${a}
+ ╿•${prefix}demote${a}
+ ╿•${prefix}promote${a}
+ ╿•${prefix}listadmin${a}
+ ╿•${prefix}group [buka/tutup]${a}
+ ╿•${prefix}leveling [enable/disable]${a}
+ ╿•${prefix}nsfw [1/0]${a}
+ ╿•${prefix}simih [1/0]${a}
+ ╿•${prefix}welcome [1/0]${a}
+ ╿•${prefix}antilink [1/0]${a}
+ ╰•${prefix}nobadword [enable/disable]${a}
+ ❏CLOUD STORAGE
+ ╿•${prefix}addsticker
+ ╿•${prefix}getsticker
+ ╿•${prefix}stickerlist
+ ╿•${prefix}addvideo
+ ╿•${prefix}getvideo
+ ╿•${prefix}videolist
+ ╿•${prefix}getimage
+ ╿•${prefix}addImage
+ ╿•${prefix}imagelist
+ ╿•${prefix}addaudio
+ ╿•${prefix}getaudio
+ ╰•${prefix}audiolist
+❏OWNER MENU
+╿•${prefix}bc
+╿•${prefix}addbadword
+╿•${prefix}delbadword
+╿•${prefix}bcgc
+╿•${prefix}kickall
+╿•${prefix}setreply
+╿•${prefix}setprefix
+╿•${prefix}clearall
+╿•${prefix}block
+╿•${prefix}unblock
+╿•${prefix}leave
+╿•${prefix}event [1/0]
+╿•${prefix}clone
+╰•${prefix}setppbot
  
-${a}❏THANGKS TO${a}
- ${a}╿${a}
- ${a}╿ • AFFIS JUNIANTO <dev>${a}
- ${a}╿ • FADHIL GRAPHY <partner>${a}
- ${a}╿ • MHANKBARBARS <sc ori>${a}
- ${a}╿ • MYBOT TEAM <team>${a}
- ${a}╿ • MY HACKING TEAM <team>${a}
- ${a}╿${a}
- ${a}╰━━━⊱  ⸨ MR BOT ⸩  ⊰━━━━${a}
+❏THANGKS TO
+╿
+╿ • AFFIS JUNIANTO <dev>
+╿ • FADHIL GRAPHY <partner>
+╿ • MHANKBARBARS <sc ori>
+╿ • MYBOT TEAM <team>
+╿ • MY HACKING TEAM <team>
+╿
+╰━━━⊱  ⸨ MR BOT ⸩  ⊰━━━━${a}
 `
 }
 
