@@ -1,7 +1,7 @@
 {
-  "name": "XBOT",
+  "name": "MRBOT",
   "version": "1.0.0",
-  "description": "Xbot for whatsapp online with termux",
+  "description": "MR BOT for whatsapp online with termux",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -20,9 +20,9 @@
     "url": "git+https://github.com/affisjunianto/botwasapv2.git"
   },
   "bugs": {
-    "url": "https://github.com/affisjunianto/botwasapv2/issues"
+    "url": "https://github.com/kelvin44/MR_BOT/issues"
   },
-  "homepage": "https://github.com/affisjunianto/botwasapv2/readme",
+  "homepage": "https://github.com/kelvin44/MR_BOT/readme",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.3.0",
