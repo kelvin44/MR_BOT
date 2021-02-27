@@ -38,21 +38,21 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Affis Admin\n' 
-            + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' 
+            + 'FN:Owenr gans\n' 
+            + 'ORG: ;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6281218305935:+62 812-1830-5935\n' 
             + 'END:VCARD' 
 blocked = []   
 prefix = '#'
 limitawal = 30
 memberlimit = 0
-ator = 'AMEL cans'
+ator = 'Owner gans'
 namo = 'jangan colong'
-cr = '*BOT INI SUDAH TERVERIFIKASI*'
+cr = '*MENU COMMAND MR BOT*'
 /*************************************/
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["62895710073737@s.whatsapp.net","6282334297175@s.whatsapp.net"] 
+const ownerNumber = ["6281218305935@s.whatsapp.net","6285212830930@s.whatsapp.net"] 
 /************************************/
 
        
@@ -1136,8 +1136,8 @@ client.on('group-participants-update', async (anu) => {
           		if (!isRegistered) return reply(ind.noregis())
            		 await client.sendMessage(from, `Pong!!!!\nSpeed: ${processTime(time, moment())} _Second_`)
 					break
-               case 'help': 
-				case 'menu':
+				case 'mrbot':
+				case 'mrmenu':
 				if (!isRegistered) return reply(ind.noregis())
 				    const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 				    const uangku = checkATMuser(sender)
@@ -1167,7 +1167,7 @@ client.on('group-participants-update', async (anu) => {
          	   case 'owner':
          	   case 'creator':
                   client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-                  client.sendMessage(from, 'Tuh nomer owner ku >_<, jangan spam atau ku block kamu',MessageType.text, { quoted: mek} )
+                  client.sendMessage(from, '*ITU NOMOR OWNERKU:)*',MessageType.text, { quoted: mek} )
 					break    
 				case 'leaderboard':
 				case 'lb':
@@ -1267,7 +1267,7 @@ client.on('group-participants-update', async (anu) => {
                 hasiltf = jumblah - fee
                 addKoinUser(tujuantf, hasiltf)
                 confirmATM(sender, jumblah)
-                addKoinUser('62895710073737@s.whatsapp.net', fee)
+                addKoinUser('6281218305935@s.whatsapp.net', fee)
                 reply(`*「 SUKSES 」*\n\npengiriman uang telah sukses\ndari : +${sender.split("@")[0]}\nke : +${tujuan}\njumblah transfer : ${jumblah}\npajak : ${fee}`)
                 break
 				case 'dompet':
@@ -1948,7 +1948,7 @@ client.on('group-participants-update', async (anu) => {
 						reply('𝙨𝙪𝙘𝙘𝙚𝙨𝙨 𝙗𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩 ')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 BROADCAST BOT 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 MR BOT 」*\n\n${body.slice(4)}`)
 						}
 						reply('𝙨𝙪𝙘𝙘𝙚𝙨𝙨 𝙗𝙧𝙤𝙖𝙙??𝙖𝙨𝙩 ')
 					}
@@ -2179,7 +2179,7 @@ client.on('group-participants-update', async (anu) => {
 				
 				default:
 			if (body.startsWith(`${prefix}${command}`)) {
-                  reply(`Maaf *${pushname}*, Command *${prefix}${command}* Tidak Terdaftar Di Dalam *${prefix}menu*!`)
+                  reply(`Maaf *${pushname}*, Command *${prefix}${command}* Tidak Terdaftar Di Dalam *${prefix}mrmenu*!`)
                   }
 			if (isGroup && !isCmd && isSimi && budy != undefined) {
 						console.log(budy)
