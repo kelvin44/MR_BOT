@@ -131,77 +131,77 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
  *${prefix}donasi*
  *${prefix}owner*
 
-${a}❏MAKER MENU${a}
- ${a}╿•${prefix}sticker${a}
- ${a}╿•${prefix}quotemaker${a}
- ${a}╿•${prefix}qrcode${a}
- ${a}╰•${prefix}ttp${a}
-${a}❏FUN MENU${a}
- ${a}╿•${prefix}lirik${a}
- ${a}╿•${prefix}artinama${a}
- ${a}╿•${prefix}chord${a}
- ${a}╿•${prefix}bisakah${a}
- ${a}╿•${prefix}kapankah${a}
- ${a}╿•${prefix}apakah${a}
- ${a}╿•${prefix}rate${a}
- ${a}╿•${prefix}slap${a}
- ${a}╿•${prefix}tampar${a}
- ${a}╿•${prefix}moddroid${a} *[VIP]*
- ${a}╰•${prefix}happymod${a} *[VIP]*
-${a}❏MUTUAL${a}
- ${a}╿•${prefix}mutual${a}
- ${a}╰•${prefix}next${a}
-${a}❏MEDIA MENU${a}
- ${a}╿•${prefix}brainly${a} *[VIP]*
- ${a}╿•${prefix}pinterest${a}
- ${a}╿•${prefix}resepmasakan${a}
- ${a}╿•${prefix}igstalk${a}
- ${a}╿•${prefix}bitly${a}
- ${a}╿•${prefix}tiktokstalk${a} *[VIP]*
- ${a}╿•${prefix}ssweb${a}
- ${a}╰•${prefix}kbbi${a}
-${a}❏SONG${a}
- ${a}╰•${prefix}joox${a} *[VIP]*
-${a}❏NSFW${a}
- ${a}╿•${prefix}anjing${a}
- ${a}╿•${prefix}blowjob${a}
- ${a}╿•${prefix}nekonime${a}
- ${a}╿•${prefix}pokemon${a}
- ${a}╿•${prefix}husbu${a}
- ${a}╿•${prefix}nangis${a}
- ${a}╿•${prefix}cium${a}
- ${a}╿•${prefix}peluk${a}
- ${a}╰•${prefix}ranime${a}
-${a}❏LIMIT & UANG${a}
- ${a}╿•${prefix}limit${a}
- ${a}╿•${prefix}buylimit${a}
- ${a}╿•${prefix}transfer${a}
- ${a}╿•${prefix}dompet${a}
- ${a}╿•${prefix}giftlimit${a}
- ${a}╰•${prefix}leaderboard${a}
+❏MAKER MENU
+ ╿•${prefix}sticker
+ ╿•${prefix}quotemaker
+ ╿•${prefix}qrcode
+ ╰•${prefix}ttp
+❏FUN MENU
+ ╿•${prefix}lirik
+ ╿•${prefix}artinama
+ ╿•${prefix}chord
+ ╿•${prefix}bisakah
+ ╿•${prefix}kapankah
+ ╿•${prefix}apakah
+ ╿•${prefix}rate
+ ╿•${prefix}slap
+ ╿•${prefix}tampar
+ ╿•${prefix}moddroid *[VIP]*
+ ╰•${prefix}happymod *[VIP]*
+❏MUTUAL
+ ╿•${prefix}mutual
+ ╰•${prefix}next
+❏MEDIA MENU
+ ╿•${prefix}brainly *[VIP]*
+ ╿•${prefix}pinterest
+ ╿•${prefix}resepmasakan
+ ╿•${prefix}igstalk
+ ╿•${prefix}bitly
+ ╿•${prefix}tiktokstalk *[VIP]*
+ ╿•${prefix}ssweb
+ ╰•${prefix}kbbi
+❏SONG
+ ╰•${prefix}joox *[VIP]*
+❏NSFW
+ ╿•${prefix}anjing
+ ╿•${prefix}blowjob
+ ╿•${prefix}nekonime
+ ╿•${prefix}pokemon
+ ╿•${prefix}husbu
+ ╿•${prefix}nangis
+ ╿•${prefix}cium
+ ╿•${prefix}peluk
+ ╰•${prefix}ranime
+❏LIMIT & UANG
+ ╿•${prefix}limit
+ ╿•${prefix}buylimit
+ ╿•${prefix}transfer
+ ╿•${prefix}dompet
+ ╿•${prefix}giftlimit
+ ╰•${prefix}leaderboard
  ❏GROUP MENU
- ╿•${prefix}delete${a}
- ╿•${prefix}hidetag${a}
- ╿•${prefix}blocklist${a}
- ╿•${prefix}grouplist${a}
- ╿•${prefix}level${a}
- ╿•${prefix}linkgc${a}
- ╿•${prefix}tagall${a}
- ╿•${prefix}setpp${a}
- ╿•${prefix}add${a}
- ╿•${prefix}kick${a}
- ╿•${prefix}setname${a}
- ╿•${prefix}setdesc${a}
- ╿•${prefix}demote${a}
- ╿•${prefix}promote${a}
- ╿•${prefix}listadmin${a}
- ╿•${prefix}group [buka/tutup]${a}
- ╿•${prefix}leveling [enable/disable]${a}
- ╿•${prefix}nsfw [1/0]${a}
- ╿•${prefix}simih [1/0]${a}
- ╿•${prefix}welcome [1/0]${a}
- ╿•${prefix}antilink [1/0]${a}
- ╰•${prefix}nobadword [enable/disable]${a}
+ ╿•${prefix}delete
+ ╿•${prefix}hidetag
+ ╿•${prefix}blocklist
+ ╿•${prefix}grouplist
+ ╿•${prefix}level
+ ╿•${prefix}linkgc
+ ╿•${prefix}tagall
+ ╿•${prefix}setpp
+ ╿•${prefix}add
+ ╿•${prefix}kick
+ ╿•${prefix}setname
+ ╿•${prefix}setdesc
+ ╿•${prefix}demote
+ ╿•${prefix}promote
+ ╿•${prefix}listadmin
+ ╿•${prefix}group [buka/tutup]
+ ╿•${prefix}leveling [enable/disable]
+ ╿•${prefix}nsfw [1/0]
+ ╿•${prefix}simih [1/0]
+ ╿•${prefix}welcome [1/0]
+ ╿•${prefix}antilink [1/0]
+ ╰•${prefix}nobadword [enable/disable]
  ❏CLOUD STORAGE
  ╿•${prefix}addsticker
  ╿•${prefix}getsticker
